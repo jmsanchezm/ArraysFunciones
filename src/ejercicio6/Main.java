@@ -5,9 +5,10 @@ import java.util.Arrays;
 public class Main {
 
 	public static void main(String[] args) {
-		int tabla[]={1,2,3,4,5,6,7,8,9,10};
-		int mayor=5;
-		System.out.println(Arrays.toString(EliminaMayores.eliminarMayores(tabla, mayor)));
+		int tabla [] = {15,29,31,47,47,65,79,69,93,101};
+		int value=50;
+		System.out.println(Arrays.toString(EliminaMayores.eliminarMayores(tabla, value)));
+
 
 	}
 
